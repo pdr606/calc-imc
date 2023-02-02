@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc Imc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="photo">
+            <div class="text">
+                <h1>Tenho medo do escuro!</h1>
+            </div>
+            <div class="photo-fisi">
+                <img src="imagens/cbum.png"width="400px" alt="photo cbum" >
+            </div>
+
+            <div class="text2">
+                <h1>Anabolizantes não matam!</h1>
+            </div>
+        </section>
+
+        <section class="all">
+            <div class="container">
+                <div class="inform">
+                    <h2>Calcule o seu IMC.</h2>
+                </div>
+
+                <div class="info">
+                    <label for="peso">Peso:</label>
+                    <input type="number" name="peso" id="peso">
+                    <label for="altura">Altura:</label>
+                    <input type="number" name="altura" id="altura">
+                </div>
+
+                <div class="confirm">
+                    <input class="botao" type="button" value="Calcular" onclick="calcular()">
+                </div>
+                <div id="result">
+                </div>
+
+                <div id="resultadofoto">
+                    <img id="photoresultado" widht="200px" height="200px" src="" alt="">
+                </div>
+
+                <div id="end">
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
